@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interests Survey form</title>
+</head>
+<body>
+  <!-- Assignment: Create a Form Using Form Tags and the required label -->
+  <h2>Interests Survey form</h2>
+  <form action="#">
+    <label for="name">Enter your name:</label>
+    <input size="35" type="text" name="name" id="name"><br><br>
+    <label for="department">Enter your department:</label>
+    <input size="35" type="text" name="department" id="department"><br><br>
+    <label for="about">Tell us a little about yourself:</label>
+    <textarea name="about" id="about" cols="30" rows="4"></textarea><br><br>
+    <p style="display: inline;">Do you exercise at home?</p>
+    <input type="radio" name="exercise" id="yes" value="yes">
+    <label for="no">Yes</label>
+    <input type="radio" name="exercise" id="no" value="no">
+    <label for="no">No</label><br><br>
+    <p style="display: inline;">How do you like to read about your favorite topic?</p><br><br>
+    <input type="checkbox" name="fav_topic" id="books" value="books">
+    <label for="books">Books</label>
+    <input type="checkbox" name="fav_topics" id="online" value="online">
+    <label for="online">Online reasources</label>
+    <input type="checkbox" name="fav_topics" id="apps" value="apps">
+    <label for="apps">Phone apps</label>
+    <input type="checkbox" name="fav_topics" id="magazines" value="magazines">
+    <label for="magazines">Magazines</label><br><br>
+    <label for="movies">What genre of movies do you like?</label>
+    <select name="movies" id="movies">
+      <option value="drama">Action</option>
+      <option value="comedy" selected>Comedy</option>
+      <option value="horror">Horror</option>
+    </select><br><br>
+    <input type="submit" value="Submit form">
+  </form>
+</body>
+</html>
